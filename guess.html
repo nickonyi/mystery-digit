@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mystery Digit</title>
 </head>
 
 <body>
-
+    <div class="container">
+        <label for="guess" class="guess">Guess the Number:</label>
+        <select name="guess-range" id="guess-range" class="input">
+            <option class="input" value="select the range">Select the range</option>
+            <option value="0-1000">0-1000</option>
+            <option value="0-1000">1000-2000</option>
+            <option value="0-1000">2000-3000</option>
+            <option value="0-1000">3000-4000</option>
+            <option value="0-1000">4000-5000</option>
+        </select>
+        <button class="submit">Submit</button>
+    </div>
 </body>
 
 </html>
